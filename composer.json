@@ -1,0 +1,15 @@
+{
+    "name": "sander/2025-04-29",
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sander van Dragt",
+            "email": "sander@vandragt.com"
+        }
+    ],
+    "require": {}
+}

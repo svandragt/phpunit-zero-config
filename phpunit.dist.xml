@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<phpunit
+	bootstrap="vendor/autoload.php"
+	backupGlobals="false"
+	colors="true"
+	failOnDeprecation="true"
+	cacheDirectory=".phpunit-cache"
+	>
+	<testsuites>
+		<testsuite name="project">
+			<directory prefix="class-test-" suffix=".php">tests/</directory>
+			<directory prefix="test-" suffix=".php">tests/</directory>
+			<directory suffix="-test.php">tests/</directory>
+			<directory suffix="Test.php">tests/</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
