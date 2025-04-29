@@ -21,3 +21,7 @@ Time: 00:00.002, Memory: 8.00 MB
 OK (2 tests, 2 assertions)
 
 ```
+
+
+- Entering the shell runs the `init_hook` `in devbox.json`, which runs `composer install`, which sets up the autoloader, required for the phpunit bootstrap.
+- You can also run `devbox run test` to run `phpunit`, included to demonstrate how to add scripts.
