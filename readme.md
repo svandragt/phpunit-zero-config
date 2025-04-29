@@ -12,7 +12,7 @@ Starting a devbox shell...
 PHPUnit 12.1.0 by Sebastian Bergmann and contributors.
 
 Runtime:       PHP 8.4.6
-Configuration: /home/sander/tmp/2025-04-29/phpunit.dist.xml
+Configuration: /home/user/tmp/2025-04-29/phpunit.dist.xml
 
 ..                                                                  2 / 2 (100%)
 
