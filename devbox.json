@@ -6,6 +6,7 @@
   ],
   "shell": {
     "init_hook": [
+      "export PATH=vendor/bin:$PATH",
       "composer install"
     ],
     "scripts": {
